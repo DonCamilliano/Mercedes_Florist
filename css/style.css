@@ -1,0 +1,387 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+ h3 {
+     text-align: center;
+     padding-top: 20px;
+     margin-top: 0;
+ }
+ 
+ .screen {
+     height: 800px;
+     background: url(../img/tlo18.jpg) no-repeat center center scroll;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     color: #fff;
+ }
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #5BADFF;
+}
+
+.navbar-default .container {
+    padding: 15px 0;
+
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fed136;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 5px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 0 0;
+        background-color: #5BADFF;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.btn-xl {
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+ /* Header */
+ .header {
+   background-color: rgba(0,0,0,.5);
+   height: 60px;
+ }
+ 
+ .header .container {
+   padding: 15px 0;
+  }
+ 
+  .nav {
+  margin: 0;
+}
+
+ .nav a {
+     text-transform: uppercase;
+     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: auto 10px;
+  margin: 0 20px;
+  float: left;
+}
+
+
+
+ .screen .header .container .nav .hov:hover {
+  color: #F6F600;
+  background: none;
+ }
+
+ .clearfix {
+   clear: both;
+ }
+ 
+ .jumbotron {
+     position: relative;
+     top: 200px;
+     background-color: transparent;
+ } 
+ 
+ .main {
+   text-align: center;
+   
+ }
+ 
+ .h1 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+ }
+
+ #wit {
+     text-transform: none;
+     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-style: italic;
+     font-weight: 400;
+     font-size: 22px;
+ }
+
+
+@media(min-width:768px){
+   .main #wit {
+       text-transform: none;
+       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+       font-style: italic;
+       font-weight: 400;
+       font-size: 100px;
+   }
+
+    .main #ter {
+        font-size: 80px;
+        font-weight: 100;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    }
+}
+
+
+/* Supporting */
+.supporting {
+  min-height: 500px;
+  background-color: #FFF;
+  color: #440044;
+}
+
+
+.container-fluid {
+  padding: 100px 0;
+}
+
+.box{
+  min-height: 200px;
+}
+
+.supporting h2 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    padding: 30px 0 50px 0;
+}
+
+.row {
+    margin: 0 100px;
+}
+/*.left{background-color:blue; background-size:cover}
+.left:hover {background:url("http://www.tapetus.pl/obrazki/n/190235_kwiaty-doniczkowe-kolorowe-wiaderka.jpg"); background-size:cover}
+.center{background-color:green; background-size:cover}
+.center:hover {background:url("http://www.tapeta-roz-czerwone-rozowe-bukiet.na-telefon.org/tapety/roz-czerwone-rozowe-bukiet.jpeg"); background-size:cover}
+.right{background-color: grey; background-size:cover}
+.right:hover {background:url("http://miadecor.pl/wp-content/uploads/2015/04/IMG_0016.jpg"); background-size:cover}*/
+
+.glyphicon{
+    color: #F6F600;
+    font-size: 70px;
+
+}
+
+.h3 {
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 90px;
+
+}
+
+.supporting p {
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/* Feature */
+.feature {
+    height: 700px;
+    background-color: grey;
+    background: url(../img/tlo24.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #440044;
+}
+
+.feature .container {
+  padding: 100px 0;
+}
+
+.feature h3 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.feature p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    height: 700px;
+    background-color: #fff;
+    color: #440044;
+    display:inline;
+    float:left;
+}
+
+.footer .container {
+    padding: 100px 0;
+    margin: 0 30px 0 30px;
+}
+
+.footer h3 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.footer .mapp {
+    width: 80%;
+    height: 400px;
+    padding: 10px 0 20px 0;
+}
+
+.footer p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer .adress {
+    padding: 20px;
+    font-size: 15px;
+}
+
+
+#map {
+    width:250px;
+    height:200px;
+}
+
+@media(min-width:768px){
+    .footer h3 {
+        font-size: 50px;
+        text-align: center;
+        text-transform: none;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        padding-bottom: 30px;}
+
+    #map {
+        width:500px;
+        height:400px;
+    }
+
+    .footer .adress {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .footer p {
+        padding: 20px;
+        font-size: 30px;
+    }
+}
